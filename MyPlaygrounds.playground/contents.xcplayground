@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' executeOnSourceChanges='false'>
+    <pages>
+        <page name='Classes and Objects'/>
+        <page name='Classes'/>
+        <page name='Closures'/>
+        <page name='Collection Types'/>
+        <page name='Constants and Variables'/>
+        <page name='Control Flow'/>
+        <page name='Enumerations and Structures'/>
+        <page name='Extensions'/>
+        <page name='Functions'/>
+        <page name='Generics'/>
+        <page name='Initializer Chaining'/>
+        <page name='ProtocolAndExtensions'/>
+        <page name='Struture'/>
+        <page name='Subscripts'/>
+    </pages>
+</playground>
