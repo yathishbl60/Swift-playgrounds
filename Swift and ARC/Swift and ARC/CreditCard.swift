@@ -19,11 +19,11 @@ class CreditCard {
         self.cardHolder = cardHolder
         self.number = number
         
-        println("CreditCard #\(number) is being initialized")
+        print("CreditCard #\(number) is being initialized")
     }
     
     deinit {
-        println("CreditCard #\(number) is being deinitialized")
+        print("CreditCard #\(number) is being deinitialized")
 
     }
 }

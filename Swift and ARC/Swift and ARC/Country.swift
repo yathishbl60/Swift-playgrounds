@@ -16,11 +16,11 @@ class Country {
         self.name = name
         self.capitalCity = City(name: capitalName, country: self)
         
-        println("Country \(name) and capitalCity \(capitalCity.name) is being initialized")
+        print("Country \(name) and capitalCity \(capitalCity.name) is being initialized")
     }
     
     deinit {
-       println("Country \(name) and capitalCity \(capitalCity.name) is being deinitialized")
+       print("Country \(name) and capitalCity \(capitalCity.name) is being deinitialized")
 
     }
 }

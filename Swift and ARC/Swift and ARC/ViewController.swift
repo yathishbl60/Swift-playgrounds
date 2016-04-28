@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         
         jhon = nil
         
-        println("\(number70?.tenant?.name)") // number70.tenant is set to nil after jhon is deallocated because it is a weak reference
+        print("\(number70?.tenant?.name)") // number70.tenant is set to nil after jhon is deallocated because it is a weak reference
         
         number70 = nil
 
@@ -71,7 +71,7 @@ class ViewController: UIViewController {
         
         let asHTML = paragraph?.asHTML // reference cycle created
         
-        println(asHTML)
+        print(asHTML)
         
         paragraph = nil
     }

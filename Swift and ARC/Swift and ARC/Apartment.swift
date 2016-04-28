@@ -15,11 +15,11 @@ class Apartment {
 
     init(number: Int) {
         self.number = number
-        println("Appartment \(number) is being initialized")
+        print("Appartment \(number) is being initialized")
 
     }
     
     deinit {
-        println("Appartment number # \(number) is being deInitialized")
+        print("Appartment number # \(number) is being deInitialized")
     }
 }

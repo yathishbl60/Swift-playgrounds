@@ -16,11 +16,11 @@ class Customer {
     
     init(name: String) {
         self.name = name
-        println("Customer \(name) is being initialized")
+        print("Customer \(name) is being initialized")
     }
     
     deinit {
-        println("Customer \(name) is being deinitialized")
+        print("Customer \(name) is being deinitialized")
 
     }
 }

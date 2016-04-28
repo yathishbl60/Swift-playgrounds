@@ -15,11 +15,11 @@ class Person {
     
     init(name: String) {
         self.name = name
-        println("\(name) is being initialized")
+        print("\(name) is being initialized")
     }
     
     deinit {
-        println("\(name) is being deinitialized")
+        print("\(name) is being deinitialized")
     }
     
 }

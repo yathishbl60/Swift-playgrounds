@@ -13,7 +13,7 @@ class HTMLElement {
     let name: String
     let text: String?
     
-    @lazy var asHTML: () -> String = {
+    lazy var asHTML: () -> String = {
         
         //comment below line creates reference cycle
         [unowned self] in //capture self as an unowned reference rather than a strong reference
@@ -28,7 +28,7 @@ class HTMLElement {
         }
     }
 
-    @lazy var asHTML_: () -> String? = {
+    lazy var asHTML_: () -> String? = {
         
         //comment below line creates reference cycle
         [weak self] in //capture self as an unowned reference rather than a strong reference
@@ -49,6 +49,6 @@ class HTMLElement {
     }
     
     deinit {
-        println("\(name) is being deinitialized")
+        print("\(name) is being deinitialized")
     }
 }
