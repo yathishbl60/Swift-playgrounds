@@ -1,2 +1,2 @@
 # Swift-playgrounds
-Playgrounds
+ Swift 2.2
